@@ -79,6 +79,20 @@ class BasicLayout extends Component {
             </h3>
           </div>
 
+          <div style={{ float: 'left', width: '640px' }}>
+            <img src="http://img-cdn2.luoo.net/pics/vol/5a2eb94874061.jpg!/fwfh/640x452" alt="陷入至深里去" style={{ borderRadius: '4px', width: '640px', height: '452px' }} />
+            <a style={{ textDecoration: 'none', color: '#2d2d2d' }}>vol.964 陷入至深里去</a>
+          </div>
+
+          <div style={{ float: 'right', width: '303px', marginBottom: '10px' }} >
+            <img src="http://img-cdn2.luoo.net/pics/vol/5a2be90092c79.jpg!/fwfh/640x452" alt="理想永远不会也不应该消失" style={{ borderRadius: '3px', width: '302px', height: '210px' }} />
+            <a style={{ textDecoration: 'none', color: '#2d2d2d' }}>vol.963 理想永远不会也不应该消失</a>
+          </div>
+
+          <div style={{ float: 'right', width: '303px', marginBottom: '10px' }} >
+            <img src="http://img-cdn2.luoo.net/pics/vol/5a1adc357875e.jpg!/fwfh/640x452" alt="各有少年时" style={{ borderRadius: '3px', width: '302px', height: '210px' }} />
+            <a style={{ textDecoration: 'none', color: '#2d2d2d' }}>vol.962 各有少年时</a>
+          </div>
         </Container>
       </div >
     );
