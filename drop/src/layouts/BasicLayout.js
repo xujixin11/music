@@ -37,7 +37,7 @@ class BasicLayout extends Component {
                 </Menu.Item>
               </Menu>
             </div>
-            <a style={{ display: 'inline-block', marginLeft: '65px' }}>注册/登录</a>
+            <a style={{ display: 'inline-block', marginLeft: '65px', textDecoration: 'none', color: '#2d2d2d' }}>注册/登录</a>
           </div>
         </Container>
 
@@ -92,6 +92,22 @@ class BasicLayout extends Component {
           <div style={{ float: 'right', width: '303px', marginBottom: '10px' }} >
             <img src="http://img-cdn2.luoo.net/pics/vol/5a1adc357875e.jpg!/fwfh/640x452" alt="各有少年时" style={{ borderRadius: '3px', width: '302px', height: '210px' }} />
             <a style={{ textDecoration: 'none', color: '#2d2d2d' }}>vol.962 各有少年时</a>
+          </div>
+
+          <div style={{ marginBottom: '58px' }}>
+            <div style={{ float: 'left', width: '465px' }}>
+              <div>
+                <p style={{ display: 'inline-block', borderLeft: '3px solid red', fontSize: '25px', paddingLeft: '10px', marginTop: '30px' }}>
+                  原创推荐
+                </p>
+              </div>
+
+              <div style={{ float: 'right', marginTop: '5px' }}>
+                <h3 style={{ display: 'inline-block', marginLeft: '5px', color: '#7d7d7d', fontSize: '15px' }}>单曲</h3>
+                <h3 style={{ display: 'inline-block', marginLeft: '5px', color: '#7d7d7d', fontSize: '15px' }}>专栏</h3>
+                <h3 style={{ display: 'inline-block', marginLeft: '5px', color: '#7d7d7d', fontSize: '15px' }}>更多＞</h3>
+              </div>
+            </div>
           </div>
         </Container>
       </div >
