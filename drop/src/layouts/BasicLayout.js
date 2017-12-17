@@ -59,7 +59,7 @@ class BasicLayout extends Component {
 
           <div style={{ marginTop: '2em' }}>
             <h3>
-              <p style={{ display: 'inline-block', borderLeft: '3px solid red', fontSize: '25px', paddingLeft: '10px', marginTop: '10px' }}>
+              <p style={{ display: 'inline-block', borderLeft: '3px solid red', fontSize: '25px', paddingLeft: '10px', marginTop: '10px', fontFamily: 'Verdana', fontWeight: '400' }}>
                 音乐期刊
               </p>
 
@@ -97,9 +97,31 @@ class BasicLayout extends Component {
           <div style={{ marginBottom: '58px' }}>
             <div style={{ float: 'left', width: '465px' }}>
               <div>
-                <p style={{ display: 'inline-block', borderLeft: '3px solid red', fontSize: '25px', paddingLeft: '10px', marginTop: '30px' }}>
+                <p style={{ display: 'inline-block', borderLeft: '3px solid red', fontSize: '25px', paddingLeft: '10px', marginTop: '30px', fontFamily: 'Verdana', fontWeight: '400' }}>
                   原创推荐
                 </p>
+              </div>
+
+              <div style={{ marginTop: '22px' }}>
+                <div style={{ display: 'flex' }}>
+                  <img src="http://img-cdn2.luoo.net/pics/performers/201711/FuF4beQlreAyLZqtbRZ5LVEaR11p.jpg?imageView2/1/w/350" alt="徐真真-开心就足够" style={{ float: 'left', width: '150px', height: '150px', borderRadius: '75px' }} />
+                  <div style={{ display: 'table', float: 'right', width: '270px', height: '150px', marginLeft: '45px' }}>
+                    <div style={{ display: 'table-cell', verticalAlign: 'middle' }}>
+                      <div>
+                        <a style={{ fontSize: '22px', lineHeight: '28px', color: '#000' }}>开心就足够</a>
+                        <p style={{ color: '#7d7d7d', fontSize: '18px', marginTop: '12px' }}>徐真真</p>
+                        <p style={{ textAlign: 'right', marginTop: '7px', color: '#7d7d7d' }}>2017-11-29</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div style={{ marginTop: '12px' }}>
+                <p style={{ fontFamily: 'Verdana' }}>
+                  “人生不可能一帆风顺，你会选择什么态度去面对？有人会重新调整新的状态投入寻找理想生活，有人则一蹶不振放弃自己坚持的东西。开心乐观的信仰，
+                  有时比黄金珍贵，徐真真用一首朗朗上口的Rap来告诉你看似复杂却又浅显的道理，轻快的flow与积极向上的歌词让人一秒就能豁然开朗，和真真的笑容
+                  一样像阳光般照耀着你，驱散你内心的阴霾。今天，我想看到新的你，寒冬里也别忘记去晒晒太阳。”
+                  </p>
               </div>
 
               <div style={{ float: 'right', marginTop: '5px' }}>
@@ -109,6 +131,7 @@ class BasicLayout extends Component {
               </div>
             </div>
           </div>
+
         </Container>
       </div >
     );
