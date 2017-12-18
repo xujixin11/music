@@ -123,11 +123,28 @@ class BasicLayout extends Component {
                   一样像阳光般照耀着你，驱散你内心的阴霾。今天，我想看到新的你，寒冬里也别忘记去晒晒太阳。”
                   </p>
               </div>
+            </div>
 
-              <div style={{ float: 'right', marginTop: '5px' }}>
-                <h3 style={{ display: 'inline-block', marginLeft: '5px', color: '#7d7d7d', fontSize: '15px' }}>单曲</h3>
-                <h3 style={{ display: 'inline-block', marginLeft: '5px', color: '#7d7d7d', fontSize: '15px' }}>专栏</h3>
-                <h3 style={{ display: 'inline-block', marginLeft: '5px', color: '#7d7d7d', fontSize: '15px' }}>更多＞</h3>
+            <div style={{ float: 'right', width: '495px' }}>
+              <div style={{ marginLeft: '17px', height: '36px', marginTop: '16px' }}>
+                <div style={{ float: 'right' }}>
+                  <a style={{ display: 'inline-block', marginLeft: '3px', marginTop: '14px', color: '#7d7d7d' }}>单曲</a>
+                  <a style={{ display: 'inline-block', marginLeft: '3px', marginTop: '14px', color: '#7d7d7d' }}>专栏</a>
+                  <a style={{ display: 'inline-block', marginLeft: '5px', marginTop: '14px', color: '#7d7d7d' }}>更多＞</a>
+                </div>
+              </div>
+
+              <div style={{ marginTop: '22px' }}>
+                <div style={{ float: 'left', marginLeft: '38px' }}>
+                  <a style={{ color: '#2d2d2d' }}>
+                    <img src="http://img-cdn2.luoo.net/pics/essays/201711/FuM6NJm4JecMPU4ggaXAKjKQM2ab.jpg?imageView2/1/w/350/h/250" alt="人类首张在太空录制的专辑" style={{ width: '208px', height: '148px', borderRadius: '4px' }} />
+                  </a>
+
+                  <div>
+                    <p style={{ fontSize: '14px', margin: '15px 0px 10px 0px', width: '208px', lineHeight: '20px', height: '38px' }}>人类首张在太空录制的专辑</p>
+                    <p style={{ fontSize: '12px', color: '#7d7d7d' }}>李卤味</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
