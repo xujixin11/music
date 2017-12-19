@@ -77,21 +77,20 @@ class BasicLayout extends Component {
                 <h3 style={{ display: 'inline-block', marginLeft: '5px', color: '#7d7d7d', fontSize: '15px' }}>更多＞</h3>
               </div>
             </h3>
-          </div>
 
-          <div style={{ float: 'left', width: '640px' }}>
-            <img src="http://img-cdn2.luoo.net/pics/vol/5a2eb94874061.jpg!/fwfh/640x452" alt="陷入至深里去" style={{ borderRadius: '4px', width: '640px', height: '452px' }} />
-            <a style={{ textDecoration: 'none', color: '#2d2d2d' }}>vol.964 陷入至深里去</a>
-          </div>
+            <div style={{ float: 'left', width: '640px' }}>
+              <a style={{ textDecoration: 'none', color: '#2d2d2d' }}>vol.964 陷入至深里去</a>
+            </div>
 
-          <div style={{ float: 'right', width: '303px', marginBottom: '10px' }} >
-            <img src="http://img-cdn2.luoo.net/pics/vol/5a2be90092c79.jpg!/fwfh/640x452" alt="理想永远不会也不应该消失" style={{ borderRadius: '3px', width: '302px', height: '210px' }} />
-            <a style={{ textDecoration: 'none', color: '#2d2d2d' }}>vol.963 理想永远不会也不应该消失</a>
-          </div>
+            <div style={{ float: 'right', width: '303px', marginBottom: '10px' }} >
+              <img src="http://img-cdn2.luoo.net/pics/vol/5a2be90092c79.jpg!/fwfh/640x452" alt="理想永远不会也不应该消失" style={{ borderRadius: '3px', width: '302px', height: '210px' }} />
+              <a style={{ textDecoration: 'none', color: '#2d2d2d' }}>vol.963 理想永远不会也不应该消失</a>
+            </div>
 
-          <div style={{ float: 'right', width: '303px', marginBottom: '10px' }} >
-            <img src="http://img-cdn2.luoo.net/pics/vol/5a1adc357875e.jpg!/fwfh/640x452" alt="各有少年时" style={{ borderRadius: '3px', width: '302px', height: '210px' }} />
-            <a style={{ textDecoration: 'none', color: '#2d2d2d' }}>vol.962 各有少年时</a>
+            <div style={{ float: 'right', width: '303px', marginBottom: '10px' }} >
+              <img src="http://img-cdn2.luoo.net/pics/vol/5a1adc357875e.jpg!/fwfh/640x452" alt="各有少年时" style={{ borderRadius: '3px', width: '302px', height: '210px' }} />
+              <a style={{ textDecoration: 'none', color: '#2d2d2d' }}>vol.962 各有少年时</a>
+            </div>
           </div>
 
           <div style={{ marginBottom: '58px' }}>
@@ -143,6 +142,17 @@ class BasicLayout extends Component {
                   <div>
                     <p style={{ fontSize: '14px', margin: '15px 0px 10px 0px', width: '208px', lineHeight: '20px', height: '38px' }}>人类首张在太空录制的专辑</p>
                     <p style={{ fontSize: '12px', color: '#7d7d7d' }}>李卤味</p>
+                  </div>
+                </div>
+
+                <div style={{ float: 'left', marginLeft: '38px' }}>
+                  <a style={{ color: '#2d2d2d' }}>
+                    <img src="http://img-cdn2.luoo.net/pics/essays/201711/Ft3KtUoW1x3JtRIIpwaQXp9AwRLu.jpg?imageView2/1/w/350/h/250" alt="Sugar Man：隐没在城市里的一把声音" style={{ width: '208px', height: '148px', borderRadius: '4px' }} />
+                  </a>
+
+                  <div>
+                    <p style={{ fontSize: '14px', margin: '15px 0px 10px 0px', width: '208px', lineHeight: '20px', height: '38px' }}>Sugar Man：隐没在城市里的一把声音</p>
+                    <p style={{ fontSize: '12px', color: '#7d7d7d' }}>LUO</p>
                   </div>
                 </div>
               </div>
