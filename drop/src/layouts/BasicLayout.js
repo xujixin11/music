@@ -78,25 +78,28 @@ class BasicLayout extends Component {
               </div>
             </h3>
 
-            <div style={{ float: 'left', width: '640px' }}>
-              <a style={{ textDecoration: 'none', color: '#2d2d2d' }}>vol.964 陷入至深里去</a>
-            </div>
+            <div style={{ marginTop: '-22px' }}>
+              <div style={{ float: 'left', width: '640px' }}>
+                <img src="http://img-cdn2.luoo.net/pics/vol/5a2eb94874061.jpg!/fwfh/640x452" alt="陷入至深里去" style={{ borderRadius: '4px', width: '640px', height: '452px' }} />
+                <a style={{ textDecoration: 'none', color: '#2d2d2d' }}>vol.964 陷入至深里去</a>
+              </div>
 
-            <div style={{ float: 'right', width: '303px', marginBottom: '10px' }} >
-              <img src="http://img-cdn2.luoo.net/pics/vol/5a2be90092c79.jpg!/fwfh/640x452" alt="理想永远不会也不应该消失" style={{ borderRadius: '3px', width: '302px', height: '210px' }} />
-              <a style={{ textDecoration: 'none', color: '#2d2d2d' }}>vol.963 理想永远不会也不应该消失</a>
-            </div>
+              <div style={{ float: 'right', width: '303px', marginBottom: '10px' }} >
+                <img src="http://img-cdn2.luoo.net/pics/vol/5a2be90092c79.jpg!/fwfh/640x452" alt="理想永远不会也不应该消失" style={{ borderRadius: '3px', width: '302px', height: '210px' }} />
+                <a style={{ textDecoration: 'none', color: '#2d2d2d' }}>vol.963 理想永远不会也不应该消失</a>
+              </div>
 
-            <div style={{ float: 'right', width: '303px', marginBottom: '10px' }} >
-              <img src="http://img-cdn2.luoo.net/pics/vol/5a1adc357875e.jpg!/fwfh/640x452" alt="各有少年时" style={{ borderRadius: '3px', width: '302px', height: '210px' }} />
-              <a style={{ textDecoration: 'none', color: '#2d2d2d' }}>vol.962 各有少年时</a>
+              <div style={{ float: 'right', width: '303px', marginBottom: '10px' }} >
+                <img src="http://img-cdn2.luoo.net/pics/vol/5a1adc357875e.jpg!/fwfh/640x452" alt="各有少年时" style={{ borderRadius: '3px', width: '302px', height: '210px' }} />
+                <a style={{ textDecoration: 'none', color: '#2d2d2d' }}>vol.962 各有少年时</a>
+              </div>
             </div>
           </div>
 
-          <div style={{ marginBottom: '58px' }}>
+          <div>
             <div style={{ float: 'left', width: '465px' }}>
               <div>
-                <p style={{ display: 'inline-block', borderLeft: '3px solid red', fontSize: '25px', paddingLeft: '10px', marginTop: '30px', fontFamily: 'Verdana', fontWeight: '400' }}>
+                <p style={{ display: 'inline-block', borderLeft: '3px solid red', fontSize: '25px', paddingLeft: '10px', marginTop: '45px', fontFamily: 'Verdana', fontWeight: '400' }}>
                   原创推荐
                 </p>
               </div>
@@ -125,7 +128,7 @@ class BasicLayout extends Component {
             </div>
 
             <div style={{ float: 'right', width: '495px' }}>
-              <div style={{ marginLeft: '17px', height: '36px', marginTop: '16px' }}>
+              <div style={{ marginLeft: '17px', height: '36px', marginTop: '28px' }}>
                 <div style={{ float: 'right' }}>
                   <a style={{ display: 'inline-block', marginLeft: '3px', marginTop: '14px', color: '#7d7d7d' }}>单曲</a>
                   <a style={{ display: 'inline-block', marginLeft: '3px', marginTop: '14px', color: '#7d7d7d' }}>专栏</a>
@@ -159,6 +162,33 @@ class BasicLayout extends Component {
             </div>
           </div>
 
+          <div>
+            <div style={{ width: '100%', clear: 'both' }}>
+              <div style={{ float: 'left', fontSize: '24px' }}>
+                <p style={{ borderLeft: '3px solid red', fontSize: '25px', paddingLeft: '10px', marginTop: '58px', fontFamily: 'Verdana', fontWeight: '400' }}>热门活动</p>
+              </div>
+
+              <div style={{ float: 'right', marginTop: '4em' }}>
+                <a style={{ display: 'inline-block', marginLeft: '3px', marginTop: '14px', color: '#7d7d7d' }}>北京</a>
+                <a style={{ display: 'inline-block', marginLeft: '3px', marginTop: '14px', color: '#7d7d7d' }}>上海</a>
+                <a style={{ display: 'inline-block', marginLeft: '3px', marginTop: '14px', color: '#7d7d7d' }}>广州</a>
+                <a style={{ display: 'inline-block', marginLeft: '3px', marginTop: '14px', color: '#7d7d7d' }}>深圳</a>
+                <a style={{ display: 'inline-block', marginLeft: '3px', marginTop: '14px', color: '#7d7d7d' }}>武汉</a>
+                <a style={{ display: 'inline-block', marginLeft: '3px', marginTop: '14px', color: '#7d7d7d' }}>成都</a>
+                <a style={{ display: 'inline-block', marginLeft: '3px', marginTop: '14px', color: '#7d7d7d' }}>台湾</a>
+                <a style={{ display: 'inline-block', marginLeft: '3px', marginTop: '14px', color: '#7d7d7d' }}>香港</a>
+                <a style={{ display: 'inline-block', marginLeft: '5px', marginTop: '14px', color: '#7d7d7d' }}>更多＞</a>
+              </div>
+            </div>
+
+            <div style={{ clear: 'both' }}>
+              <div style={{ float: 'left', marginBottom: '20px', marginRight: '16px', width: '309px', marginTop: '22px' }}>
+                <a style={{ float: 'left', width: '120px' }}>
+                  <img src="http://img-cdn2.luoo.net/pics/event/14181/57874d7bd0c71.jpg!/fwfh/180x225" alt="湖泊乐队全国大型巡演" style={{ width: '120px', height: '170px', borderRadius: '4px' }} />
+                </a>
+              </div>
+            </div>
+          </div>
         </Container>
       </div >
     );
