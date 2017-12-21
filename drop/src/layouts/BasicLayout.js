@@ -186,6 +186,14 @@ class BasicLayout extends Component {
                 <a style={{ float: 'left', width: '120px' }}>
                   <img src="http://img-cdn2.luoo.net/pics/event/14181/57874d7bd0c71.jpg!/fwfh/180x225" alt="湖泊乐队全国大型巡演" style={{ width: '120px', height: '170px', borderRadius: '4px' }} />
                 </a>
+
+                <div style={{ float: 'left', marginLeft: '15px', width: '172px' }}>
+                  <a href="http://www.luoo.net/event/14181" title="湖泊乐队全国大型巡演" style={{ display: 'block', fontSize: '16px', lineHeight: '20px', marginBottom: '15px', width: '172px', height: '40px', color: '#2d2d2d' }}>湖泊乐队全国大型巡演</a>
+                  <p style={{ color: '#7d7d7d' }}>时间：2016-09-02</p>
+                  <p style={{ color: '#7d7d7d' }}>地点：保定</p>
+                  <p style={{ color: '#7d7d7d' }}>场所：暗香咖啡</p>
+                  <p style={{ color: '#7d7d7d' }}>费用：50元 - 60元</p>
+                </div>
               </div>
             </div>
           </div>
