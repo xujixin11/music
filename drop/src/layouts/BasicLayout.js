@@ -195,9 +195,132 @@ class BasicLayout extends Component {
                   <p style={{ color: '#7d7d7d' }}>费用：50元 - 60元</p>
                 </div>
               </div>
+
+              <div style={{ float: 'left', marginBottom: '20px', marginRight: '16px', width: '309px', marginTop: '22px' }}>
+                <a style={{ float: 'left', width: '120px' }}>
+                  <img src="http://img-cdn2.luoo.net/pics/event/13049/55ecfa0326232.jpg!/fwfh/180x225" alt="和平与爱——为抗战老兵募捐义演" style={{ width: '120px', height: '170px', borderRadius: '4px' }} />
+                </a>
+
+                <div style={{ float: 'left', marginLeft: '15px', width: '172px' }}>
+                  <a href="http://www.luoo.net/event/13049" title="和平与爱——为抗战老兵募捐义演" style={{ display: 'block', fontSize: '16px', lineHeight: '20px', marginBottom: '15px', width: '172px', height: '40px', color: '#2d2d2d' }}>和平与爱——为抗战老兵募捐义演</a>
+                  <p style={{ color: '#7d7d7d' }}>时间：2015-09-18</p>
+                  <p style={{ color: '#7d7d7d' }}>地点：保定</p>
+                  <p style={{ color: '#7d7d7d' }}>场所：蓝致现场</p>
+                  <p style={{ color: '#7d7d7d' }}>费用：30元 - 40元</p>
+                </div>
+              </div>
+
+              <div style={{ float: 'left', marginBottom: '20px', width: '309px', marginTop: '22px' }}>
+                <a style={{ float: 'left', width: '120px' }}>
+                  <img src="http://img-cdn2.luoo.net/pics/event/12850/237949cceaabe986ac5c1cd65cef13ff.jpg!/fwfh/180x225" alt="酒鬼乐队巡演" style={{ width: '120px', height: '170px', borderRadius: '4px' }} />
+                </a>
+
+                <div style={{ float: 'left', marginLeft: '15px', width: '172px' }}>
+                  <a href="http://www.luoo.net/event/12850" title="酒鬼乐队巡演" style={{ display: 'block', fontSize: '16px', lineHeight: '20px', marginBottom: '15px', width: '172px', height: '40px', color: '#2d2d2d' }}>酒鬼乐队巡演</a>
+                  <p style={{ color: '#7d7d7d' }}>时间：2015-07-25</p>
+                  <p style={{ color: '#7d7d7d' }}>地点：保定</p>
+                  <p style={{ color: '#7d7d7d' }}>场所：蓝致现场</p>
+                  <p style={{ color: '#7d7d7d' }}>费用：30元 - 40元</p>
+                </div>
+              </div>
+
+              <div style={{ float: 'left', marginBottom: '20px', marginRight: '16px', width: '309px', marginTop: '22px' }}>
+                <a style={{ float: 'left', width: '120px' }}>
+                  <img src="http://img-cdn2.luoo.net/pics/event/12830/eaf90ea9a5c3866af372589e011d4242.jpg!/fwfh/180x225" alt="【王亚伟+老猫+良梓】民谣联合专场" style={{ width: '120px', height: '170px', borderRadius: '4px' }} />
+                </a>
+
+                <div style={{ float: 'left', marginLeft: '15px', width: '172px' }}>
+                  <a href="http://www.luoo.net/event/12830" title="【王亚伟+老猫+良梓】民谣联合专场" style={{ display: 'block', fontSize: '16px', lineHeight: '20px', marginBottom: '15px', width: '172px', height: '40px', color: '#2d2d2d' }}>【王亚伟+老猫+良梓】民谣联合专场</a>
+                  <p style={{ color: '#7d7d7d' }}>时间：2015-07-21</p>
+                  <p style={{ color: '#7d7d7d' }}>地点：保定</p>
+                  <p style={{ color: '#7d7d7d' }}>场所：暗香咖啡</p>
+                  <p style={{ color: '#7d7d7d' }}>费用：40元</p>
+                </div>
+              </div>
+
+              <div style={{ float: 'left', marginBottom: '20px', marginRight: '16px', width: '309px', marginTop: '22px' }}>
+                <a style={{ float: 'left', width: '120px' }}>
+                  <img src="http://img-cdn2.luoo.net/pics/event/12310/0f19d4d93ea331b17b6156e8fcdc6e3c.jpg!/fwfh/180x225" alt="【保定站】super bad 「放开那个女孩」全国巡演" style={{ width: '120px', height: '170px', borderRadius: '4px' }} />
+                </a>
+
+                <div style={{ float: 'left', marginLeft: '15px', width: '172px' }}>
+                  <a href="http://www.luoo.net/event/12310" title="【保定站】super bad 「放开那个女孩」全国巡演" style={{ display: 'block', fontSize: '16px', lineHeight: '20px', marginBottom: '15px', width: '172px', height: '40px', color: '#2d2d2d' }}>【保定站】super bad 「放开那个女孩」全国巡演</a>
+                  <p style={{ color: '#7d7d7d' }}>时间：2015-04-25</p>
+                  <p style={{ color: '#7d7d7d' }}>地点：保定</p>
+                  <p style={{ color: '#7d7d7d' }}>场所：蓝致现场</p>
+                  <p style={{ color: '#7d7d7d' }}>费用：40元 - 50元</p>
+                </div>
+              </div>
+
+              <div style={{ float: 'left', marginBottom: '20px', width: '309px', marginTop: '22px' }}>
+                <a style={{ float: 'left', width: '120px' }}>
+                  <img src="http://img-cdn2.luoo.net/pics/event/12307/afd7de3f825e55b48cbc839e095326a4.jpg!/fwfh/180x225" alt="【保定站】花粥2015巡演" style={{ width: '120px', height: '170px', borderRadius: '4px' }} />
+                </a>
+
+                <div style={{ float: 'left', marginLeft: '15px', width: '172px' }}>
+                  <a href="http://www.luoo.net/event/12307" title="【保定站】花粥2015巡演" style={{ display: 'block', fontSize: '16px', lineHeight: '20px', marginBottom: '15px', width: '172px', height: '40px', color: '#2d2d2d' }}>【保定站】花粥2015巡演</a>
+                  <p style={{ color: '#7d7d7d' }}>时间：2015-03-29</p>
+                  <p style={{ color: '#7d7d7d' }}>地点：保定</p>
+                  <p style={{ color: '#7d7d7d' }}>场所：420酒吧</p>
+                  <p style={{ color: '#7d7d7d' }}>费用：50元 - 60元</p>
+                </div>
+              </div>
             </div>
           </div>
         </Container>
+
+        <div style={{ display: 'flex', background: '#222', borderTop: '1px solid #111', marginTop: '90px', padding: '35px 0', width: '100%', clear: 'both' }}>
+          <div style={{ width: '960px', margin: '0 auto', color: '#e1e1e1' }}>
+            <div style={{ float: 'left', width: '380px' }}>
+              <h4 style={{ color: '#fff', fontSize: '14px', marginBottom: '7px' }}>关于</h4>
+              <p style={{ margin: '2px 0' }}>
+                <a style={{ color: '#e1e1e1' }}>关于落网</a>
+              </p>
+              <p style={{ margin: '2px 0' }}>
+                <a style={{ color: '#e1e1e1' }}>加入我们</a>
+              </p>
+              <p style={{ margin: '2px 0' }}>
+                <a style={{ color: '#e1e1e1' }}>联系合作</a>
+              </p>
+              <p style={{ margin: '2px 0' }}>
+                <a style={{ color: '#e1e1e1' }}>反馈建议</a>
+              </p>
+              <p style={{ margin: '2px 0' }}>
+                <a style={{ color: '#e1e1e1' }}>友情链接</a>
+              </p>
+            </div>
+
+            <div style={{ float: 'left', width: '305px' }}>
+              <h4 style={{ color: '#fff', fontSize: '14px', marginBottom: '7px' }}>APP</h4>
+              <p style={{ margin: '2px 0' }}>
+                <a style={{ color: '#e1e1e1', display: 'inline-block', marginTop: '12px', marginBottom: '7px' }}>
+                  <span style={{ display: 'inline-block', width: '20px', height: '20px', verticalAlign: 'center', backgroundImage: 'url(../assets/Apple.png)', backgroundPosition: '0 -90px' }} />
+                  for iPhone
+                </a>
+              </p>
+              <p style={{ margin: '2px 0' }}>
+                <a style={{ color: '#e1e1e1', display: 'inline-block', marginTop: '12px', marginBottom: '7px' }}>
+                  <span style={{ display: 'inline-block', width: '20px', height: '20px', verticalAlign: 'center', backgroundImage: 'url(../assets/Apple.png)', backgroundPosition: '0 -30px' }} />
+                  for Android
+                </a>
+              </p>
+              <p style={{ margin: '2px 0' }}>
+                <a style={{ color: '#e1e1e1', display: 'inline-block', marginTop: '12px', marginBottom: '7px' }}>
+                  <span style={{ display: 'inline-block', width: '20px', height: '20px', verticalAlign: 'center', backgroundImage: 'url(../assets/Apple.png)', backgroundPosition: '0 -60px' }} />
+                  for Windows 8
+                </a>
+              </p>
+            </div>
+
+            <div style={{ textAlign: 'right', float: 'right', width: '275px' }}>
+              <h4 style={{ color: '#fff', fontSize: '14px', marginBottom: '7px' }}>关注落网</h4>
+              <p>© 2017 落网</p>
+              <p style={{ marginTop: '15px' }}>
+                <h4 style={{ display: 'inline-block', fontSize: '12px', height: '20px', width: '136px', verticalAlign: 'middle' }}>独立，不独于世</h4>
+              </p>
+            </div>
+          </div>
+        </div>
       </div >
     );
   }
