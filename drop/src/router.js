@@ -1,14 +1,39 @@
 import React from 'react';
-import { Router, Route, Switch } from 'dva/router';
+import { Route, Switch, routerRedux } from 'dva/router';
+import dynamic from 'dva/dynamic';
 import BasicLayout from './layouts/BasicLayout';
+import Container from './layouts/Container';
 
-function RouterConfig({ history }) {
+const { ConnectedRouter } = routerRedux;
+
+function RouterConfig({ history, app }) {
+  const routes = [
+    {
+      path: '/periodical',
+      component: () => import('./layouts/Periodical'),
+    },
+  ];
   return (
-    <Router history={history}>
-      <Switch>
-        <Route path="/" exact component={BasicLayout} />
-      </Switch>
-    </Router>
+    <ConnectedRouter history={history}>
+      <BasicLayout>
+        <Switch>
+          <Route exact path="/" render={() => <Container />} />
+          {
+            routes.map(({ path, ...dynamics }, key) => (
+              <Route
+                key={key}
+                exact
+                path={path}
+                component={dynamic({
+                  app,
+                  ...dynamics,
+                })}
+              />
+            ))
+          }
+        </Switch>
+      </BasicLayout>
+    </ConnectedRouter>
   );
 }
 
