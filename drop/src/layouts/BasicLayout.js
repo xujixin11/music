@@ -26,7 +26,7 @@ class BasicLayout extends Component {
             <div style={{ display: 'inline-block' }}>
               <Menu secondary style={{ height: '60px', width: '750px', margin: '0 auto' }} >
                 <Link to="/periodical">
-                  <Menu.Item name="期刊" active={activeItem === 'periodical'} onClick={this.handleItemClick} />
+                  <Menu.Item name="期刊" active={activeItem === 'periodical'} onClick={this.handleItemClick} style={{ verticalAlign: 'middle', marginTop: '12px' }} />
                 </Link>
                 <Menu.Item name="单曲" active={activeItem === 'single'} onClick={this.handleItemClick} />
                 <Menu.Item name="专栏" active={activeItem === 'special'} onClick={this.handleItemClick} />
@@ -66,27 +66,33 @@ class BasicLayout extends Component {
             <div style={{ float: 'left', width: '305px' }}>
               <h4 style={{ color: '#fff', fontSize: '14px', marginBottom: '7px' }}>APP</h4>
               <p style={{ margin: '2px 0' }}>
-                <a style={{ color: '#e1e1e1', display: 'inline-block', marginTop: '12px', marginBottom: '7px' }}>
-                  <img src={require('../assets/Apple.png')} alt="pic" style={{ display: 'inline-block', width: '20px', height: '20px', verticalAlign: 'center', backgroundPosition: '0 -90px' }} />
+                <a style={{ color: '#e1e1e1', display: 'inline-block', marginTop: '5px', marginBottom: '7px' }}>
+                  <img src={require('../assets/apple.png')} alt="pic" style={{ display: 'inline-block', width: '20px', height: '20px', verticalAlign: 'center', backgroundPosition: '0 -90px', marginRight: '8px' }} />
                   for iPhone
                 </a>
               </p>
               <p style={{ margin: '2px 0' }}>
-                <a style={{ color: '#e1e1e1', display: 'inline-block', marginTop: '12px', marginBottom: '7px' }}>
-                  <span style={{ display: 'inline-block', width: '20px', height: '20px', verticalAlign: 'center', backgroundImage: 'url(../assets/Apple.png)', backgroundPosition: '0 -30px' }} />
+                <a style={{ color: '#e1e1e1', display: 'inline-block', marginTop: '5px', marginBottom: '7px' }}>
+                  <img src={require('../assets/andriod.png')} alt="pic" style={{ display: 'inline-block', width: '20px', height: '20px', verticalAlign: 'center', backgroundPosition: '0 -30px', marginRight: '8px' }} />
                   for Android
                 </a>
               </p>
               <p style={{ margin: '2px 0' }}>
-                <a style={{ color: '#e1e1e1', display: 'inline-block', marginTop: '12px', marginBottom: '7px' }}>
-                  <span style={{ display: 'inline-block', width: '20px', height: '20px', verticalAlign: 'center', backgroundImage: 'url(../assets/Apple.png)', backgroundPosition: '0 -60px' }} />
+                <a style={{ color: '#e1e1e1', display: 'inline-block', marginTop: '5px', marginBottom: '7px' }}>
+                  <img src={require('../assets/windows8.png')} alt="pic" style={{ display: 'inline-block', width: '20px', height: '20px', verticalAlign: 'center', backgroundPosition: '0 -60px', marginRight: '8px' }} />
                   for Windows 8
                 </a>
               </p>
             </div>
 
             <div style={{ textAlign: 'right', float: 'right', width: '275px' }}>
-              <h4 style={{ color: '#fff', fontSize: '14px', marginBottom: '7px' }}>关注落网</h4>
+              <h4 style={{ color: '#fff', fontSize: '14px', marginBottom: '10px' }}>关注落网</h4>
+              <div style={{ marginBottom: '30px' }}>
+                <img src={require('../assets/QQ.png')} alt="pic" style={{ display: 'inline-block', width: '20px', height: '20px', verticalAlign: 'center', marginRight: '15px' }} />
+                <img src={require('../assets/weichat.png')} alt="pic" style={{ display: 'inline-block', width: '20px', height: '20px', verticalAlign: 'center', marginRight: '15px' }} />
+                <img src={require('../assets/weibo.png')} alt="pic" style={{ display: 'inline-block', width: '20px', height: '20px', verticalAlign: 'center', marginRight: '15px' }} />
+                <img src={require('../assets/douban.png')} alt="pic" style={{ display: 'inline-block', width: '20px', height: '20px', verticalAlign: 'center' }} />
+              </div>
               <p>© 2017 落网</p>
               <p style={{ marginTop: '15px' }}>
                 <h4 style={{ display: 'inline-block', fontSize: '12px', height: '20px', width: '136px', verticalAlign: 'middle' }}>独立，不独于世</h4>
