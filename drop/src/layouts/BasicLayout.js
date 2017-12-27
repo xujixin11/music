@@ -20,9 +20,11 @@ class BasicLayout extends Component {
       <div>
         <Container style={{ background: 'whitesmoke', width: '100%', borderTop: '2px solid red' }}>
           <div style={{ flexDirection: 'row', textAlign: 'center' }} >
-            <div style={{ display: 'inline-block', fontSize: '20px', marginRight: '50px' }}>
-              落.
+            <Link to="/">
+              <div style={{ display: 'inline-block', fontSize: '20px', marginRight: '50px', color: '#2d2d2d' }}>
+                落.
             </div>
+            </Link>
             <div style={{ display: 'inline-block' }}>
               <Menu secondary style={{ height: '60px', width: '750px', margin: '0 auto' }} >
                 <Link to="/periodical">
