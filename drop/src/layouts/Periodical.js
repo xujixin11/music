@@ -5,7 +5,6 @@ import React, { Component } from 'react';
 import { Container } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 
-
 class Periodical extends Component {
   render() {
     return (
@@ -225,6 +224,66 @@ class Periodical extends Component {
                     <div style={{ float: 'right', color: '#7d7d7d', margin: '0 20px' }}>
                       <img src={require('../assets/xin.png')} alt="pic" style={{ display: 'inline-block', verticalAlign: 'middle', width: '13px', height: '13px', marginRight: '5px', marginBottom: '2px' }} />
                       17029
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div style={{ float: 'right', width: '290px' }}>
+              <div style={{ marginBottom: '25px' }}>
+                <div style={{ paddingBottom: '17px' }}>
+                  <p style={{ fontSize: '14px' }}>最近热门期刊</p>
+                </div>
+
+                <div>
+                  <div style={{ marginBottom: '25px' }}>
+                    <a style={{ display: 'block', float: 'left', marginRight: '13px' }}>
+                      <img src="http://img-cdn2.luoo.net/pics/vol/54218f5e7a1ee.jpg!/fwfh/160x120" alt="迷笛！迷笛！" style={{ display: 'block', maxWidth: '42px', borderRadius: '3px' }} />
+                    </a>
+                    <div style={{ lineHeight: '1' }}>
+                      <a title="迷笛！迷笛！" style={{ margin: '1px 0 4px 0', display: 'block', color: '#2d2d2d' }}>迷笛！迷笛！</a>
+                      <p style={{ color: '#7d7d7d', fontSize: '12px' }}>25908人收藏</p>
+                    </div>
+                  </div>
+
+                  <div style={{ marginBottom: '25px' }}>
+                    <a style={{ display: 'block', float: 'left', marginRight: '13px' }}>
+                      <img src="http://img-cdn2.luoo.net/pics/vol/5750635f9f56e.jpg!/fwfh/160x120" alt="云自无心水自闲" style={{ display: 'block', maxWidth: '42px', borderRadius: '3px' }} />
+                    </a>
+                    <div style={{ lineHeight: '1' }}>
+                      <a title="云自无心水自闲" style={{ margin: '1px 0 4px 0', display: 'block', color: '#2d2d2d' }}>云自无心水自闲</a>
+                      <p style={{ color: '#7d7d7d', fontSize: '12px' }}>22951人收藏</p>
+                    </div>
+                  </div>
+
+                  <div style={{ marginBottom: '25px' }}>
+                    <a style={{ display: 'block', float: 'left', marginRight: '13px' }}>
+                      <img src="http://img-cdn2.luoo.net/pics/vol/59c7cfd8c532a.jpg!/fwfh/160x120" alt="独自对抗这世界" style={{ display: 'block', maxWidth: '42px', borderRadius: '3px' }} />
+                    </a>
+                    <div style={{ lineHeight: '1' }}>
+                      <a title="独自对抗这世界" style={{ margin: '1px 0 4px 0', display: 'block', color: '#2d2d2d' }}>独自对抗这世界</a>
+                      <p style={{ color: '#7d7d7d', fontSize: '12px' }}>17365人收藏</p>
+                    </div>
+                  </div>
+
+                  <div style={{ marginBottom: '25px' }}>
+                    <a style={{ display: 'block', float: 'left', marginRight: '13px' }}>
+                      <img src="http://img-cdn2.luoo.net/pics/vol/59f21a77d9627.jpg!/fwfh/160x120" alt="山水间" style={{ display: 'block', maxWidth: '42px', borderRadius: '3px' }} />
+                    </a>
+                    <div style={{ lineHeight: '1' }}>
+                      <a title="山水间" style={{ margin: '1px 0 4px 0', display: 'block', color: '#2d2d2d' }}>山水间</a>
+                      <p style={{ color: '#7d7d7d', fontSize: '12px' }}>17032人收藏</p>
+                    </div>
+                  </div>
+
+                  <div style={{ marginBottom: '25px' }}>
+                    <a style={{ display: 'block', float: 'left', marginRight: '13px' }}>
+                      <img src="http://img-cdn2.luoo.net/pics/vol/5a3bef2c12392.jpg!/fwfh/160x120" alt="在穿梭自由里与自我相遇" style={{ display: 'block', maxWidth: '42px', borderRadius: '3px' }} />
+                    </a>
+                    <div style={{ lineHeight: '1' }}>
+                      <a title="在穿梭自由里与自我相遇" style={{ margin: '1px 0 4px 0', display: 'block', color: '#2d2d2d' }}>在穿梭自由里与自我相遇</a>
+                      <p style={{ color: '#7d7d7d', fontSize: '12px' }}>2796人收藏</p>
                     </div>
                   </div>
                 </div>
