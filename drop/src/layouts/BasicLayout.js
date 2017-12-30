@@ -33,7 +33,9 @@ class BasicLayout extends Component {
                 <Link to="/single">
                   <Menu.Item name="单曲" active={activeItem === 'single'} onClick={this.handleItemClick} style={{ verticalAlign: 'middle', marginTop: '12px' }} />
                 </Link>
-                <Menu.Item name="专栏" active={activeItem === 'special'} onClick={this.handleItemClick} />
+                <Link to="/column">
+                  <Menu.Item name="专栏" active={activeItem === 'special'} onClick={this.handleItemClick} style={{ verticalAlign: 'middle', marginTop: '12px' }} />
+                </Link>
                 <Menu.Item name="活动" active={activeItem === 'activity'} onClick={this.handleItemClick} />
                 <Menu.Item name="APP" active={activeItem === 'app'} onClick={this.handleItemClick} />
                 <Menu.Item>
