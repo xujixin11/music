@@ -48,7 +48,7 @@ class BasicLayout extends Component {
         </Container>
         {this.props.children}
 
-        <div style={{ display: 'flex', background: '#222', borderTop: '1px solid #111', padding: '35px 0', width: '100%', clear: 'both', marginTop: '90px' }}>
+        <div style={{ display: 'inline-block', background: '#222', borderTop: '1px solid #111', padding: '35px 0', width: '100%', clear: 'both', marginTop: '90px' }}>
           <div style={{ width: '960px', margin: '0 auto', color: '#e1e1e1' }}>
             <div style={{ float: 'left', width: '380px' }}>
               <h4 style={{ color: '#fff', fontSize: '14px', marginBottom: '7px' }}>关于</h4>
