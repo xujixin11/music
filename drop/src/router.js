@@ -20,6 +20,14 @@ function RouterConfig({ history, app }) {
       path: '/column',
       component: () => import('./layouts/Column.js'),
     },
+    {
+      path: '/activity',
+      component: () => import('./layouts/Activity.js'),
+    },
+    {
+      path: '/app',
+      component: () => import('./layouts/App.js'),
+    },
   ];
   return (
     <ConnectedRouter history={history}>
