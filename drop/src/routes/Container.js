@@ -5,7 +5,6 @@ import React, { Component } from 'react';
 import 'semantic-ui-css/semantic.min.css';
 import Slider from 'react-slick';
 
-
 class Container extends Component {
   state = { activeItem: 'home' }
 
@@ -37,7 +36,7 @@ class Container extends Component {
           <h3>
             <p style={{ display: 'inline-block', borderLeft: '3px solid red', fontSize: '25px', paddingLeft: '10px', marginTop: '10px', fontFamily: 'Verdana', fontWeight: '400' }}>
               音乐期刊
-              </p>
+            </p>
 
             <div style={{ float: 'right', marginTop: '5px' }}>
               <h3 style={{ display: 'inline-block', marginLeft: '5px', color: '#7d7d7d', fontSize: '15px' }}>摇滚</h3>

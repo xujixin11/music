@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Switch, routerRedux } from 'dva/router';
 import dynamic from 'dva/dynamic';
 import BasicLayout from './layouts/BasicLayout';
-import Container from './layouts/Container';
+import Container from './routes/Container';
 
 const { ConnectedRouter } = routerRedux;
 
@@ -10,23 +10,23 @@ function RouterConfig({ history, app }) {
   const routes = [
     {
       path: '/periodical',
-      component: () => import('./layouts/Periodical'),
+      component: () => import('./routes/Periodical.js'),
     },
     {
       path: '/single',
-      component: () => import('./layouts/Single.js'),
+      component: () => import('./routes/Single.js'),
     },
     {
       path: '/column',
-      component: () => import('./layouts/Column.js'),
+      component: () => import('./routes/Column.js'),
     },
     {
       path: '/activity',
-      component: () => import('./layouts/Activity.js'),
+      component: () => import('./routes/Activity.js'),
     },
     {
       path: '/app',
-      component: () => import('./layouts/App.js'),
+      component: () => import('./routes/App.js'),
     },
   ];
   return (

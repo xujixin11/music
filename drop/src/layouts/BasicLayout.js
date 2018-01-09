@@ -23,7 +23,7 @@ class BasicLayout extends Component {
             <Link to="/">
               <div style={{ display: 'inline-block', fontSize: '20px', marginRight: '50px', color: '#2d2d2d' }}>
                 落.
-            </div>
+              </div>
             </Link>
             <div style={{ display: 'inline-block' }}>
               <Menu secondary style={{ height: '60px', width: '750px', margin: '0 auto' }} >
@@ -56,19 +56,19 @@ class BasicLayout extends Component {
           <div style={{ width: '960px', margin: '0 auto', color: '#e1e1e1' }}>
             <div style={{ float: 'left', width: '380px' }}>
               <h4 style={{ color: '#fff', fontSize: '14px', marginBottom: '7px' }}>关于</h4>
-              <p style={{ margin: '2px 0' }}>
+              <p style={{ margin: '2px 0', fontSize: '12px', lineHeight: '24px' }}>
                 <a style={{ color: '#e1e1e1' }}>关于落网</a>
               </p>
-              <p style={{ margin: '2px 0' }}>
+              <p style={{ margin: '2px 0', fontSize: '12px', lineHeight: '24px' }}>
                 <a style={{ color: '#e1e1e1' }}>加入我们</a>
               </p>
-              <p style={{ margin: '2px 0' }}>
+              <p style={{ margin: '2px 0', fontSize: '12px', lineHeight: '24px' }}>
                 <a style={{ color: '#e1e1e1' }}>联系合作</a>
               </p>
-              <p style={{ margin: '2px 0' }}>
+              <p style={{ margin: '2px 0', fontSize: '12px', lineHeight: '24px' }}>
                 <a style={{ color: '#e1e1e1' }}>反馈建议</a>
               </p>
-              <p style={{ margin: '2px 0' }}>
+              <p style={{ margin: '2px 0', fontSize: '12px', lineHeight: '24px' }}>
                 <a style={{ color: '#e1e1e1' }}>友情链接</a>
               </p>
             </div>
