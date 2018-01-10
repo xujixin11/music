@@ -53,7 +53,7 @@ class Periodical extends Component {
                     <img src="http://img-cdn2.luoo.net/pics/vol/5a3bef2c12392.jpg!/fwfh/640x452" alt="在穿梭自由里与自我相遇" style={{ display: 'block', maxWidth: '590px', borderRadius: '4px 4px 0 0' }} />
                   </a>
 
-                  <div style={{ backgroundColor: '#f2f2f2', borderRadius: '0 0 4px 4px', lineHeight: '35px', height: '35px', padding: '0 15px 0 12px', display: 'block' }}>
+                  <div style={{ backgroundColor: '#f2f2f2', borderRadius: '0 0 4px 4px', lineHeight: '40px', height: '50px', padding: '0 15px 0 12px', display: 'block' }}>
                     <a title="在穿梭自由里与自我相遇" style={{ fontSize: '14px', color: '#2d2d2d' }} >vol.966 在穿梭自由里与自我相遇</a>
                     <div style={{ float: 'right', color: '#7d7d7d' }}>
                       <img src={require('../assets/message3.png')} alt="pic" style={{ display: 'inline-block', verticalAlign: 'middle', width: '13px', height: '13px', marginRight: '5px', marginBottom: '2px' }} />
@@ -71,7 +71,7 @@ class Periodical extends Component {
                     <img src="http://img-cdn2.luoo.net/pics/vol/5a3560ee1c750.jpg!/fwfh/640x452" alt="Swan" style={{ display: 'block', maxWidth: '590px', borderRadius: '4px 4px 0 0' }} />
                   </a>
 
-                  <div style={{ backgroundColor: '#f2f2f2', borderRadius: '0 0 4px 4px', lineHeight: '35px', height: '35px', padding: '0 15px 0 12px', display: 'block' }}>
+                  <div style={{ backgroundColor: '#f2f2f2', borderRadius: '0 0 4px 4px', lineHeight: '40px', height: '50px', padding: '0 15px 0 12px', display: 'block' }}>
                     <a title="Swan" style={{ fontSize: '14px', color: '#2d2d2d' }} >vol.965 Swan</a>
                     <div style={{ float: 'right', color: '#7d7d7d' }}>
                       <img src={require('../assets/message3.png')} alt="pic" style={{ display: 'inline-block', verticalAlign: 'middle', width: '13px', height: '13px', marginRight: '5px', marginBottom: '2px' }} />
@@ -89,7 +89,7 @@ class Periodical extends Component {
                     <img src="http://img-cdn2.luoo.net/pics/vol/5a2eb94874061.jpg!/fwfh/640x452" alt="陷入至深里去" style={{ display: 'block', maxWidth: '590px', borderRadius: '4px 4px 0 0' }} />
                   </a>
 
-                  <div style={{ backgroundColor: '#f2f2f2', borderRadius: '0 0 4px 4px', lineHeight: '35px', height: '35px', padding: '0 15px 0 12px', display: 'block' }}>
+                  <div style={{ backgroundColor: '#f2f2f2', borderRadius: '0 0 4px 4px', lineHeight: '40px', height: '50px', padding: '0 15px 0 12px', display: 'block' }}>
                     <a title="陷入至深里去" style={{ fontSize: '14px', color: '#2d2d2d' }} >vol.964 陷入至深里去</a>
                     <div style={{ float: 'right', color: '#7d7d7d' }}>
                       <img src={require('../assets/message3.png')} alt="pic" style={{ display: 'inline-block', verticalAlign: 'middle', width: '13px', height: '13px', marginRight: '5px', marginBottom: '2px' }} />
@@ -107,7 +107,7 @@ class Periodical extends Component {
                     <img src="http://img-cdn2.luoo.net/pics/vol/5a2be90092c79.jpg!/fwfh/640x452" alt="理想永远不会也不应该消失" style={{ display: 'block', maxWidth: '590px', borderRadius: '4px 4px 0 0' }} />
                   </a>
 
-                  <div style={{ backgroundColor: '#f2f2f2', borderRadius: '0 0 4px 4px', lineHeight: '35px', height: '35px', padding: '0 15px 0 12px', display: 'block' }}>
+                  <div style={{ backgroundColor: '#f2f2f2', borderRadius: '0 0 4px 4px', lineHeight: '40px', height: '50px', padding: '0 15px 0 12px', display: 'block' }}>
                     <a title="理想永远不会也不应该消失" style={{ fontSize: '14px', color: '#2d2d2d' }} >vol.963 理想永远不会也不应该消失</a>
                     <div style={{ float: 'right', color: '#7d7d7d' }}>
                       <img src={require('../assets/message3.png')} alt="pic" style={{ display: 'inline-block', verticalAlign: 'middle', width: '13px', height: '13px', marginRight: '5px', marginBottom: '2px' }} />
@@ -125,7 +125,7 @@ class Periodical extends Component {
                     <img src="http://img-cdn2.luoo.net/pics/vol/5a1adc357875e.jpg!/fwfh/640x452" alt="各有少年时" style={{ display: 'block', maxWidth: '590px', borderRadius: '4px 4px 0 0' }} />
                   </a>
 
-                  <div style={{ backgroundColor: '#f2f2f2', borderRadius: '0 0 4px 4px', lineHeight: '35px', height: '35px', padding: '0 15px 0 12px', display: 'block' }}>
+                  <div style={{ backgroundColor: '#f2f2f2', borderRadius: '0 0 4px 4px', lineHeight: '40px', height: '50px', padding: '0 15px 0 12px', display: 'block' }}>
                     <a title="各有少年时" style={{ fontSize: '14px', color: '#2d2d2d' }} >vol.962 各有少年时</a>
                     <div style={{ float: 'right', color: '#7d7d7d' }}>
                       <img src={require('../assets/message3.png')} alt="pic" style={{ display: 'inline-block', verticalAlign: 'middle', width: '13px', height: '13px', marginRight: '5px', marginBottom: '2px' }} />
@@ -143,7 +143,7 @@ class Periodical extends Component {
                     <img src="http://img-cdn2.luoo.net/pics/vol/5a15aa4b58c76.jpg!/fwfh/640x452" alt="南方初冬的街道" style={{ display: 'block', maxWidth: '590px', borderRadius: '4px 4px 0 0' }} />
                   </a>
 
-                  <div style={{ backgroundColor: '#f2f2f2', borderRadius: '0 0 4px 4px', lineHeight: '35px', height: '35px', padding: '0 15px 0 12px', display: 'block' }}>
+                  <div style={{ backgroundColor: '#f2f2f2', borderRadius: '0 0 4px 4px', lineHeight: '40px', height: '50px', padding: '0 15px 0 12px', display: 'block' }}>
                     <a title="南方初冬的街道" style={{ fontSize: '14px', color: '#2d2d2d' }} >vol.961 南方初冬的街道</a>
                     <div style={{ float: 'right', color: '#7d7d7d' }}>
                       <img src={require('../assets/message3.png')} alt="pic" style={{ display: 'inline-block', verticalAlign: 'middle', width: '13px', height: '13px', marginRight: '5px', marginBottom: '2px' }} />
@@ -161,7 +161,7 @@ class Periodical extends Component {
                     <img src="http://img-cdn2.luoo.net/pics/vol/5a09cd931ee91.jpg!/fwfh/640x452" alt="黄昏时 我们一路狂奔" style={{ display: 'block', maxWidth: '590px', borderRadius: '4px 4px 0 0' }} />
                   </a>
 
-                  <div style={{ backgroundColor: '#f2f2f2', borderRadius: '0 0 4px 4px', lineHeight: '35px', height: '35px', padding: '0 15px 0 12px', display: 'block' }}>
+                  <div style={{ backgroundColor: '#f2f2f2', borderRadius: '0 0 4px 4px', lineHeight: '40px', height: '50px', padding: '0 15px 0 12px', display: 'block' }}>
                     <a title="黄昏时 我们一路狂奔" style={{ fontSize: '14px', color: '#2d2d2d' }} >vol.960 黄昏时 我们一路狂奔</a>
                     <div style={{ float: 'right', color: '#7d7d7d' }}>
                       <img src={require('../assets/message3.png')} alt="pic" style={{ display: 'inline-block', verticalAlign: 'middle', width: '13px', height: '13px', marginRight: '5px', marginBottom: '2px' }} />
@@ -179,7 +179,7 @@ class Periodical extends Component {
                     <img src="http://img-cdn2.luoo.net/pics/vol/59ff5a1d38bde.jpg!/fwfh/640x452" alt="总是走在寻找意义的路途中" style={{ display: 'block', maxWidth: '590px', borderRadius: '4px 4px 0 0' }} />
                   </a>
 
-                  <div style={{ backgroundColor: '#f2f2f2', borderRadius: '0 0 4px 4px', lineHeight: '35px', height: '35px', padding: '0 15px 0 12px', display: 'block' }}>
+                  <div style={{ backgroundColor: '#f2f2f2', borderRadius: '0 0 4px 4px', lineHeight: '40px', height: '50px', padding: '0 15px 0 12px', display: 'block' }}>
                     <a title="总是走在寻找意义的路途中" style={{ fontSize: '14px', color: '#2d2d2d' }} >vol.959 总是走在寻找意义的路途中</a>
                     <div style={{ float: 'right', color: '#7d7d7d' }}>
                       <img src={require('../assets/message3.png')} alt="pic" style={{ display: 'inline-block', verticalAlign: 'middle', width: '13px', height: '13px', marginRight: '5px', marginBottom: '2px' }} />
@@ -197,7 +197,7 @@ class Periodical extends Component {
                     <img src="http://img-cdn2.luoo.net/pics/vol/59fa01ec9d14e.jpg!/fwfh/640x452" alt="悲而能壮 哀而不伤" style={{ display: 'block', maxWidth: '590px', borderRadius: '4px 4px 0 0' }} />
                   </a>
 
-                  <div style={{ backgroundColor: '#f2f2f2', borderRadius: '0 0 4px 4px', lineHeight: '35px', height: '35px', padding: '0 15px 0 12px', display: 'block' }}>
+                  <div style={{ backgroundColor: '#f2f2f2', borderRadius: '0 0 4px 4px', lineHeight: '40px', height: '50px', padding: '0 15px 0 12px', display: 'block' }}>
                     <a title="悲而能壮 哀而不伤" style={{ fontSize: '14px', color: '#2d2d2d' }} >vol.958 悲而能壮 哀而不伤</a>
                     <div style={{ float: 'right', color: '#7d7d7d' }}>
                       <img src={require('../assets/message3.png')} alt="pic" style={{ display: 'inline-block', verticalAlign: 'middle', width: '13px', height: '13px', marginRight: '5px', marginBottom: '2px' }} />
@@ -215,7 +215,7 @@ class Periodical extends Component {
                     <img src="http://img-cdn2.luoo.net/pics/vol/59f21a77d9627.jpg!/fwfh/640x452" alt="山水间" style={{ display: 'block', maxWidth: '590px', borderRadius: '4px 4px 0 0' }} />
                   </a>
 
-                  <div style={{ backgroundColor: '#f2f2f2', borderRadius: '0 0 4px 4px', lineHeight: '35px', height: '35px', padding: '0 15px 0 12px', display: 'block' }}>
+                  <div style={{ backgroundColor: '#f2f2f2', borderRadius: '0 0 4px 4px', lineHeight: '40px', height: '50px', padding: '0 15px 0 12px', display: 'block' }}>
                     <a title="山水间" style={{ fontSize: '14px', color: '#2d2d2d' }} >vol.957 山水间</a>
                     <div style={{ float: 'right', color: '#7d7d7d' }}>
                       <img src={require('../assets/message3.png')} alt="pic" style={{ display: 'inline-block', verticalAlign: 'middle', width: '13px', height: '13px', marginRight: '5px', marginBottom: '2px' }} />
