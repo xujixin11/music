@@ -4,6 +4,11 @@
 import React, { Component } from 'react';
 import 'semantic-ui-css/semantic.min.css';
 import Slider from 'react-slick';
+import styles from './Container.less';
+
+const type = [{ title: '摇滚' }, { title: '摇滚' }, { title: '摇滚' }, { title: '摇滚' }, { title: '摇滚' },
+  { title: '摇滚' }, { title: '摇滚' }, { title: '摇滚' }, { title: '摇滚' },
+  { title: '摇滚' }, { title: '摇滚' }];
 
 class Container extends Component {
   state = { activeItem: 'home' }
@@ -38,18 +43,12 @@ class Container extends Component {
               音乐期刊
             </p>
 
-            <div style={{ float: 'right', marginTop: '5px' }}>
-              <h3 style={{ display: 'inline-block', marginLeft: '5px', color: '#7d7d7d', fontSize: '15px' }}>摇滚</h3>
-              <h3 style={{ display: 'inline-block', marginLeft: '5px', color: '#7d7d7d', fontSize: '15px' }}>另类</h3>
-              <h3 style={{ display: 'inline-block', marginLeft: '5px', color: '#7d7d7d', fontSize: '15px' }}>民谣</h3>
-              <h3 style={{ display: 'inline-block', marginLeft: '5px', color: '#7d7d7d', fontSize: '15px' }}>流行</h3>
-              <h3 style={{ display: 'inline-block', marginLeft: '5px', color: '#7d7d7d', fontSize: '15px' }}>电子</h3>
-              <h3 style={{ display: 'inline-block', marginLeft: '5px', color: '#7d7d7d', fontSize: '15px' }}>英伦</h3>
-              <h3 style={{ display: 'inline-block', marginLeft: '5px', color: '#7d7d7d', fontSize: '15px' }}>古典</h3>
-              <h3 style={{ display: 'inline-block', marginLeft: '5px', color: '#7d7d7d', fontSize: '15px' }}>暗潮</h3>
-              <h3 style={{ display: 'inline-block', marginLeft: '5px', color: '#7d7d7d', fontSize: '15px' }}>爵士</h3>
-              <h3 style={{ display: 'inline-block', marginLeft: '5px', color: '#7d7d7d', fontSize: '15px' }}>金属</h3>
-              <h3 style={{ display: 'inline-block', marginLeft: '5px', color: '#7d7d7d', fontSize: '15px' }}>更多＞</h3>
+            <div className={styles.container}>
+              {
+                type.map(item => (
+                  <span style={{ fontSize: '15px', color: '#7d7d7d', marginLeft: '6px' }}>{item.title}</span>
+                ))
+              }
             </div>
           </h3>
 
