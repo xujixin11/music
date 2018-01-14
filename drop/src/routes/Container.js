@@ -6,9 +6,9 @@ import 'semantic-ui-css/semantic.min.css';
 import Slider from 'react-slick';
 import styles from './Container.less';
 
-const type = [{ title: '摇滚' }, { title: '摇滚' }, { title: '摇滚' }, { title: '摇滚' }, { title: '摇滚' },
-  { title: '摇滚' }, { title: '摇滚' }, { title: '摇滚' }, { title: '摇滚' },
-  { title: '摇滚' }, { title: '摇滚' }];
+const type = [{ title: '摇滚' }, { title: '另类' }, { title: '民谣' }, { title: '流行' }, { title: '电子' },
+  { title: '英伦' }, { title: '古典' }, { title: '暗潮' }, { title: '爵士' },
+  { title: '金属' }, { title: '更多＞' }];
 
 class Container extends Component {
   state = { activeItem: 'home' }
@@ -58,12 +58,12 @@ class Container extends Component {
               <a style={{ textDecoration: 'none', color: '#2d2d2d' }}>vol.964 陷入至深里去</a>
             </div>
 
-            <div style={{ float: 'right', width: '303px', marginBottom: '10px' }} >
+            <div style={{ float: 'right', width: '304px', marginBottom: '10px' }} >
               <img src="http://img-cdn2.luoo.net/pics/vol/5a2be90092c79.jpg!/fwfh/640x452" alt="理想永远不会也不应该消失" style={{ borderRadius: '3px', width: '302px', height: '210px' }} />
               <a style={{ textDecoration: 'none', color: '#2d2d2d' }}>vol.963 理想永远不会也不应该消失</a>
             </div>
 
-            <div style={{ float: 'right', width: '303px', marginBottom: '10px' }} >
+            <div style={{ float: 'right', width: '304px', marginBottom: '10px' }} >
               <img src="http://img-cdn2.luoo.net/pics/vol/5a1adc357875e.jpg!/fwfh/640x452" alt="各有少年时" style={{ borderRadius: '3px', width: '302px', height: '210px' }} />
               <a style={{ textDecoration: 'none', color: '#2d2d2d' }}>vol.962 各有少年时</a>
             </div>
@@ -71,16 +71,16 @@ class Container extends Component {
         </div>
 
         <div>
-          <div style={{ float: 'left', width: '465px' }}>
+          <div style={{ width: '466px' }}>
             <div>
-              <p style={{ display: 'inline-block', borderLeft: '3px solid red', fontSize: '25px', paddingLeft: '10px', marginTop: '45px', fontFamily: 'Verdana', fontWeight: '400' }}>
+              <p style={{ display: 'inline-block', borderLeft: '3px solid red', fontSize: '25px', paddingLeft: '10px', marginTop: '46px', fontFamily: 'Verdana', fontWeight: '400' }}>
                 原创推荐
                 </p>
             </div>
 
             <div style={{ marginTop: '22px' }}>
               <div style={{ display: 'flex' }}>
-                <img src="http://img-cdn2.luoo.net/pics/performers/201711/FuF4beQlreAyLZqtbRZ5LVEaR11p.jpg?imageView2/1/w/350" alt="徐真真-开心就足够" style={{ float: 'left', width: '150px', height: '150px', borderRadius: '75px' }} />
+                <img src="http://img-cdn2.luoo.net/pics/performers/201711/FuF4beQlreAyLZqtbRZ5LVEaR11p.jpg?imageView2/1/w/350" alt="徐真真-开心就足够" style={{ float: 'left', width: '150px', height: '150px', borderRadius: '76px' }} />
                 <div style={{ display: 'table', float: 'right', width: '270px', height: '150px', marginLeft: '45px' }}>
                   <div style={{ display: 'table-cell', verticalAlign: 'middle' }}>
                     <div>
@@ -101,12 +101,12 @@ class Container extends Component {
             </div>
           </div>
 
-          <div style={{ float: 'right', width: '495px' }}>
-            <div style={{ marginLeft: '17px', height: '36px', marginTop: '28px' }}>
+          <div style={{ float: 'right', width: '496px', marginTop: '-360px' }}>
+            <div style={{ marginLeft: '16px', height: '36px', marginTop: '28px' }}>
               <div style={{ float: 'right' }}>
-                <a style={{ display: 'inline-block', marginLeft: '3px', marginTop: '14px', color: '#7d7d7d' }}>单曲</a>
-                <a style={{ display: 'inline-block', marginLeft: '3px', marginTop: '14px', color: '#7d7d7d' }}>专栏</a>
-                <a style={{ display: 'inline-block', marginLeft: '5px', marginTop: '14px', color: '#7d7d7d' }}>更多＞</a>
+                <a style={{ display: 'inline-block', marginLeft: '4px', marginTop: '14px', color: '#7d7d7d' }}>单曲</a>
+                <a style={{ display: 'inline-block', marginLeft: '4px', marginTop: '14px', color: '#7d7d7d' }}>专栏</a>
+                <a style={{ display: 'inline-block', marginLeft: '6px', marginTop: '14px', color: '#7d7d7d' }}>更多＞</a>
               </div>
             </div>
 
